@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KITSUNE</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link href="DESIGN.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo">KITSUNE<span>.</span></a>
+        <nav class="navbar">
+            <a href="HOME.html">HOME</a>
+            <a href="ABOUT.html">ABOUT</a>
+            <a href="PRODUCTS.html">PRODUCTS</a>
+            <a href="CONTACT.html">CONTACT</a>
+        </nav>
+
+    </header>
+<section class="products" id="products">
+    <h1 class="heading">Latest <span>Products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">10%</span>
+            <div class="image">
+                <img src="Wado.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 225)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Wado Ichimonji </h3>
+                <div class="price">₱225<span>₱250</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">15%</span>
+            <div class="image">
+                <img src="Yoru.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 204.21)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Yoru</h3>
+                <div class="price">₱204.21<span>₱240.25</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="Zangetsu.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 228.48)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Zangetsu</h3>
+                <div class="price">₱228.48<span>₱240.50</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">20%</span>
+            <div class="image">
+                <img src="TenTes.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 188)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Tessaiga and Tenseiga</h3>
+                <div class="price">₱188<span>₱235</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">17%</span>
+            <div class="image">
+                <img src="Sakabato.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 182.81)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sakabato</h3>
+                <div class="price">₱182.81<span>₱220.25</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">3%</span>
+            <div class="image">
+                <img src="DarkRep.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 218.25)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Dark Repulcer</h3>
+                <div class="price">₱218.25<span>₱225</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">18%</span>
+            <div class="image">
+                <img src="Clarent.jpg" alt="">
+                <div class="icons">
+                     <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 213.20)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Clarent</h3>
+                <div class="price">₱213.20<span>₱260</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">10%</span>
+            <div class="image">
+                <img src="Excalibur.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 189.45)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Excalibur</h3>
+                <div class="price">₱189.45<span>₱210.50</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">5%</span>
+            <div class="image">
+                <img src="Aron.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 215.50)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Arondight</h3>
+                <div class="price">₱215.50<span>₱204.73</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">11%</span>
+            <div class="image">
+                <img src="Yorisword.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 207.37)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Nichirin Sword - Yoriichi</h3>
+                <div class="price">₱207.37<span>₱233</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">9%</span>
+            <div class="image">
+                <img src="Morgan.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                   <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 218.40)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Excalibur Morgan</h3>
+                <div class="price">₱218.40<span>₱240</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">5%</span>
+            <div class="image">
+                <img src="Kokushibo.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn" onclick="addToCart('Katana Stand', 190)">Add to Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Flesh Katana - Kokushibo</h3>
+                <div class="price">₱190<span>₱200</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+        </ul>
+        <p>Total: ₱<span id="cart-total">0</span></p>
+        <button onclick="checkout()">Checkout</button>
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script>
+        let cart = [];
+        let cartTotal = 0;
+
+        function addToCart(itemName, itemPrice) {
+            cart.push({ name: itemName, price: itemPrice });
+            cartTotal += itemPrice;
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartItems = document.getElementById("cart-items");
+            const cartTotalElement = document.getElementById("cart-total");
+            cartItems.innerHTML = "";
+            cart.forEach((item) => {
+                const li = document.createElement("li");
+                li.textContent = `${item.name} - ₱${item.price}`;
+                cartItems.appendChild(li);
+            });
+            cartTotalElement.textContent = cartTotal.toFixed(2);
+        }
+
+        function checkout() {
+            alert(`Total: ₱${cartTotal.toFixed(2)}\nThank you for your purchase!`);
+        }
+
+        function clearCart() {
+            cart = [];
+            cartTotal = 0;
+            updateCart();
+        }
+    </script>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>QUICK LINKS</h3>
+            <a href="HOME.html">Home</a>
+            <a href="ABOUT.html">About</a>
+            <a href="PRODUCTS.html">Products</a>
+            <a href="CONTACT.html">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>CONTACT INFO</h3>
+            <a href="https://www.viber.com/en/">+63927-287-1832</a>
+            <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">KITSUNE@gmail.com</a>
+            <a href="https://maps.app.goo.gl/NFSGA3dw7mo7tYECA">4114 Governor's Dr, Brgy, Dasmariñas, 4114 Cavite</a>
+          <img src="images/payment.png" alt="">
+       
+        </div>
+    </div>
+    <div class="credit">
+        &copy; Created by <span> Richbert Zepri E. Negrete </span> BSIT 104.
+    </div>
+</section>
+
+</body>
+</html>
